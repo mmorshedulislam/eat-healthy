@@ -16,13 +16,17 @@ body{
     font-family: 'Montserrat', sans-serif;
 
 }
+img{
+    width: 100%;
+    height: auto;
+}
 .container{
     width: 90%;
     margin: 0 auto;
 }
 
 .header-area{
-    margin-top: 100px;
+    margin: 80px 0;
 }
 
 .header-area h1{
@@ -63,4 +67,110 @@ body{
 h1 {
     font-size: 56px;
     padding-top: 100px;
+}
+
+/* ========= About Area ======== */
+
+.about-area{
+    background: url('images/7.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 80px 0;
+
+}
+
+.about-left{
+    width: 50%;
+}
+.about-left img{
+    width: 50%;
+    margin: 0 auto;
+}
+.about-right{
+width: 50%;
+}
+.about-right h2{
+    font-size: 36px;
+}
+.about-right p {
+    color: #575757;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 50px 0; 
+}
+.about-right button {
+    border: none;
+    background: linear-gradient(orange, tomato);
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 33px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* ======= Recipies-area ======== */
+
+.recipies-area{
+    padding: 80px 0;
+    background-color: #fff;
+}
+.recipies-area h2:first-child{
+    text-align: center;
+    font-size: 36px;
+
+}
+.recipies-area > p{
+    width: 46%;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+}
+.recipie-item {
+    width: 49%;
+    margin: 0 1%;
+    box-shadow: 5px 2px 15px grey;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+.recipie-item img{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+.recipie-item h2{
+    padding: 30px 0;
+    text-align: left;
+    font-weight: 800;
+
+}
+.recipie-item p{
+    text-align: left;
+    font-size: 18px;
+}
+
+/* ======= counter box======== */
+
+.counter-box {
+    width: 90%;
+    background-color: #fff;
+    padding: 50px 0;
+    box-shadow: 10px 12px 35px grey;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 10%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.counter-item{
+    width: 32%;
+    margin: 0 auto;
+
+}
+.counter-item h2{
+    font-size: 36px;
 }
