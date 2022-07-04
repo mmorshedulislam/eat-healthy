@@ -174,3 +174,22 @@ width: 50%;
 .counter-item h2{
     font-size: 36px;
 }
+
+/* ======= Footer-area ======= */
+
+.footer-area{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 80px 0;
+}
+.footer-area h2{
+    font-size: 36px;
+    padding-bottom: 30px;
+    color: #575757;
+}
+.footer-area h2 span{
+    color:  #FC8846;
+}
+.footer-area p{
+    color: #fff;
+}
