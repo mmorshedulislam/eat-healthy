@@ -1,27 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .header-left{
-        width: 100%;
-    }
-    .header-right{
-        width: 100%;
-    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px){
-    .header-left{
-        width: 100%;
-    }
-    .header-right{
-        width: 100%;
-    }
-    .counter-item {
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-        margin: 20px 0;
-    }
+
 
 }
 
@@ -47,8 +31,7 @@
         margin: 20px 0;
     }
     .recipie-item {
-        width: 100%;
-        margin: 0 auto;
+        width: 50%;
         box-shadow: 0px 0px 12px grey;
         padding: 40px;
         text-align: center;

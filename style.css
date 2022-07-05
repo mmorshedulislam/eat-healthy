@@ -115,6 +115,7 @@ width: 50%;
 .recipies-area{
     padding: 80px 0;
     background-color: #fff;
+    width: 100%;
 }
 .recipies-area h2:first-child{
     text-align: center;
@@ -128,8 +129,8 @@ width: 50%;
     font-size: 16px;
 }
 .recipie-item {
-    width: 49%;
-    margin: 0 1%;
+    width: 100%;
+    margin-right: 1%;
     box-shadow: 0px 0px 12px grey;
     padding: 20px;
     text-align: center;
@@ -137,7 +138,7 @@ width: 50%;
 }
 .recipie-item img{
     width: 100%;
-    height: 60%;
+    height: auto;
     margin: 0 auto;
     text-align: center;
 
